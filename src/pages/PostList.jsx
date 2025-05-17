@@ -48,7 +48,7 @@ const PostList = () => {
 
   const handleUpdate = async (updatedPost) => {
     try {
-      await updatePost(updatedPost.id, updatedPost);
+      // await updatePost(updatedPost.id, updatedPost);
       setPosts((prev) =>
         prev.map((p) => (p.id === updatedPost.id ? updatedPost : p))
       );
