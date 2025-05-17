@@ -1,12 +1,74 @@
-# React + Vite
+# 📚 Modern Posts App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautifully designed, modern, responsive CRUD app built with **React + Vite**, styled using **TailwindCSS**, and powered by [JSONPlaceholder](https://jsonplaceholder.typicode.com/posts) API.
 
-Currently, two official plugins are available:
+> 💡 Includes dark/light mode, animated modals, toast feedback, and full CRUD functionality.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image](https://github.com/user-attachments/assets/78a5fa2e-ed10-4623-ab7c-72a7774a4c81)
+![image](https://github.com/user-attachments/assets/ae52f68c-440d-40db-bb6b-11b3da3c6f03)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Live Demo
+
+🔗 GitHub Repo: [github.com/BoegyNat/Modren-Post](https://github.com/BoegyNat/Modren-Post)
+
+---
+
+## 🎯 Features
+
+✅ Fetch post list from public API  
+✅ Create / Edit / Delete post (mock API)  
+✅ Animated Modals using **Framer Motion**  
+✅ Toast Feedback using **react-hot-toast**  
+✅ Modern responsive layout  
+✅ Dark / Light Mode toggle  
+✅ Avatar for each post  
+✅ Fully responsive & smooth transitions  
+
+---
+
+## 💻 Tech Stack
+
+| Technology        | Description                          |
+|-------------------|--------------------------------------|
+| React + Vite      | Core frontend + dev server           |
+| TailwindCSS       | Styling framework                    |
+| Axios             | API requests                         |
+| Framer Motion     | Smooth animations                    |
+| React Hot Toast   | Toast notifications                  |
+| JSONPlaceholder   | Free public REST API (mock backend)  |
+
+---
+
+## 📁 Folder Structure
+
+```
+src/
+├── components/
+│ ├── layout/ # Header, Footer, ThemeSwitcher
+│ ├── CreatePostModal.jsx
+│ ├── EditPostModal.jsx
+│ ├── DeleteConfirmModal.jsx
+│ └── PostCard.jsx
+├── context/ # ThemeContext.jsx
+├── pages/ # PostList.jsx
+├── services/ # API functions (axios)
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 📦 Getting Started
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/BoegyNat/Modren-Post.git
+
+# 2. Install dependencies
+cd Modren-Post
+npm install
+
+# 3. Run the dev server
+npm run dev
